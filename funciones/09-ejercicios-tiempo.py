@@ -28,5 +28,9 @@ def a_segundos(unidad):
     else:
         print("Unidad invalida")
 
+def de_segundos():
 
+
+
+    
 a_segundos(unidad="horas")
