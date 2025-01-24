@@ -1,11 +1,11 @@
 print("Bienvenidos al conversosr de unidades de tiempo")
 print("Las uinidades son Segundos, Minutos, Horas, Dias, Meses y Años")
 
-cantidad = 0
+cantidad = 100
 
 
 def a_segundos(unidad):
-    if unidad == "minutos":
+    if unidad.lower() == "minutos":
         resultado = cantidad * 60
         print(f"La cantidad de ingresada fue {cantidad} de {
               unidad} que en segundos es {resultado}")
@@ -26,4 +26,7 @@ def a_segundos(unidad):
         print(f"La cantidad de ingresada fue {cantidad} de {
               unidad} que en segundos es {resultado}")
     else:
-        print("Unidad invalida")          
+        print("Unidad invalida")
+
+
+a_segundos(unidad="horas")
