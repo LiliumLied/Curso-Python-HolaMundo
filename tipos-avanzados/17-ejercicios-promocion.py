@@ -12,4 +12,4 @@ compras = {
     'Cliente3': 180}
 
 clientes_promocion = aplicar_promocion(compras)
-print(clientes_promocion)  # ['Cliente1', 'Cliente3']Copyright 2024holamundo.io
+print(clientes_promocion)  # ['Cliente1', 'Cliente3']
